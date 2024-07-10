@@ -1,0 +1,320 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+
+local Window = OrionLib:MakeWindow({Name = "Trapped V1", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+
+--[[
+Name = <string> - The name of the UI.
+HidePremium = <bool> - Whether or not the user details shows Premium status or not.
+SaveConfig = <bool> - Toggles the config saving in the UI.
+ConfigFolder = <string> - The name of the folder where the configs are saved.
+IntroEnabled = <bool> - Whether or not to show the intro animation.
+IntroText = <string> - Text to show in the intro animation.
+IntroIcon = <string> - URL to the image you want to use in the intro animation.
+Icon = <string> - URL to the image you want displayed on the window.
+CloseCallback = <function> - Function to execute when the window is closed.
+]]
+
+local Tab = Window:MakeTab({
+	Name = "Locker1",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+--[[
+Name = <string> - The name of the tab.
+Icon = <string> - The icon of the tab.
+PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
+]]
+
+local Section = Tab:AddSection({
+	Name = "Section"
+})
+
+--[[
+Name = <string> - The name of the section.
+]]
+
+OrionLib:MakeNotification({
+	Name = "Notific",
+	Content = "Ur Gay nigga",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+
+--[[
+Title = <string> - The title of the notification.
+Content = <string> - The content of the notification.
+Image = <string> - The icon of the notification.
+Time = <number> - The duration of the notfication.
+]]
+
+Tab:AddButton({
+	Name = "Alex lock",
+	Callback = function()
+      		   loadstring(game:HttpGet("https://raw.githubusercontent.com/RewritingScripter1/Lock-rewritten/main/Fuck this"))();
+ 	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+Tab:AddButton({
+	Name = "Anti lock",
+	Callback = function()
+      		    loadstring(game:HttpGet('https://raw.githubusercontent.com/wenny69420/KirbswareScripts/main/MobileV3'))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+Tab:AddButton({
+	Name = "Fly script",
+	Callback = function()
+      		  loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/FlyGuiV3.txt"))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+Tab:AddButton({
+	Name = "Right click",
+	Callback = function()
+      		   loadstring(game:HttpGet("https://raw.githubusercontent.com/DHBCommunity/DHBOfficialScript/main/RightClick"))()
+ 	end    
+})
+
+Tab:AddButton({
+	Name = "Aura X Remake",
+	Callback = function()
+      		  loadstring(game:HttpGet("https://raw.githubusercontent.com/k0nkx/Aura-x-skid-ez-remake-by-k0nkx/main/Sigma"))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+Tab:AddButton({
+	Name = "AdminScript",
+	Callback = function()
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+local Tab = Window:MakeTab({
+	Name = "Locker2",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+--[[
+Name = <string> - The name of the tab.
+Icon = <string> - The icon of the tab.
+PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
+]]
+
+Tab:AddButton({
+	Name = "Fe Emote",
+	Callback = function()
+      		loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Gi7331/scripts/main/Emote.lua"))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+Tab:AddButton({
+	Name = "keyboard v2",
+	Callback = function()
+      		loadstring(game:HttpGet("https://gist.githubusercontent.com/RedZenXYZ/4d80bfd70ee27000660e4bfa7509c667/raw/da903c570249ab3c0c1a74f3467260972c3d87e6/KeyBoard%2520From%2520Ohio%2520Fr%2520Fr"))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+Tab:AddButton({
+	Name = "hellbound",
+	Callback = function()
+      		loadstring(game:HttpGet("https://pastebin.com/raw/cMG2aZWE"))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+Tab:AddButton({
+	Name = "RxcePH lock",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/A1rxgdhevve/A1rxgdhevve/main/RxcePH2.0OP"))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+Tab:AddButton({
+	Name = "macro",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/DHBCommunity/DHBOfficialScript/main/macromobbyballigusapo"))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+Tab:AddButton({
+	Name = "Aura X [beta]",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/luaarmorsystem/lua-armor-whitelisting/main/aura.cc/customer%3B-%2316229"))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+Tab:AddButton({
+	Name = "ballwarev2",
+	Callback = function()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/DHBCommunity/DHBOfficialScript/main/BalliwareV2"))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+local Tab = Window:MakeTab({
+	Name = "Locker3",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+--[[
+Name = <string> - The name of the tab.
+Icon = <string> - The icon of the tab.
+PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
+]]
+
+Tab:AddButton({
+	Name = "bladlock",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/sdfesdfsedf/srgtergasdfs/main/wwwwwww", true))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+Tab:AddButton({
+	Name = "Vascal AntiLock",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Gwaporoblox/Sub-to-vascal/main/Vascal-antilock-button"))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+Tab:AddButton({
+	Name = "frostbyte v1 [leaked]",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Totocoems/Frostbyte-leaked/main/Frostbyte%20leaked"))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+Tab:AddButton({
+	Name = "Vascal Streamable",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Gwaporoblox/Sub-to-vascal/main/Vascal-Streamable"))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+Tab:AddButton({
+	Name = "Ryzzchips silent aim",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Ryzzchips/SubtoRyzzchips/main/Ryzzchips%20Silent%20aim.", true))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+Tab:AddButton({
+	Name = "Macro [mobile]",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/DHBCommunity/DHBOfficialScript/main/macromobbyballigusapo"))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+Tab:AddButton({
+	Name = "Mario lock🤡",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Ryzzchips/SubtoRyzzchips/75e3bcd1ca98f099a5047ebf3e729cfdef450067/Ryzzchips/Mario%20aimlock.", true))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+Tab:AddButton({
+	Name = "Vascal dot",
+	Callback = function()
+      	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Gwaporoblox/Sub-to-vascal/main/Vascal-Circle-DotXd"))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
